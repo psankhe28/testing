@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Exo;
+}
+
+.res-mentor {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+}
+
+.res-profile-card {
+  position: relative;
+  margin-top: 0px;
+  width: 150px;
+  height: 180px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 50%;
+  transition: 0.6s;
+  margin: 0 15px;
+}
+
+
+.res-profile-card .img {
+  position: relative;
+  transition: 0.6s;
+  z-index: 99;
+}
+
+
+.res-img img {
+  width: 100%;
+  border-radius: 50%;
+  transition: 0.6s;
+}
+
+
+
+

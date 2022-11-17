@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+.about {
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .main img {
+    width: 580px;
+    max-width: 100%;
+    height: auto;
+    padding: 0 10px;
+}
+
+.all-text {
+    width: 600px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.main {
+    width: 1290px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.all-text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #777777;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.all-text h1 {
+    font-size: 65px;
+    color: #111111;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.all-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.btn button {
+    background-color: #fff;
+    padding: 20px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #111111;
+    border: none;
+    outline: none;
+    box-shadow: 0px 16px 32px 0px rgb(0 0 0 /6%);
+    margin-right: 20px;
+}
+
+.btn button:hover {
+    background-color: #fff;
+    color: #111111;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn .btn2 {
+    background-color: #111111;
+    color: #fff;
+    border: 2px solid #111111;
+}
+
+@media screen and (max-width:1250px) {
+    .about {
+        width: 100%;
+        height: auto;
+        padding: 60px 0;
+    }
+    .all-text {
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .about .main img {
+        margin-bottom: 35px;
+    }
+    .all-text h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+}
